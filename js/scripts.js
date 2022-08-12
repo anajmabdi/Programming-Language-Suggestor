@@ -1,4 +1,19 @@
-//Will reveal object as soon as the browser loads
+// Business Logic
+
+function python() {
+  return "python";
+}
+
+function ruby() {
+  return "ruby";
+}
+
+function javaScript() {
+  return "JavaScript";
+} 
+
+// User Interface Logic
+
 
 function letsTest(event) {
   event.preventDefault();
@@ -7,6 +22,12 @@ function letsTest(event) {
   const question3 = document.getElementById("question3").value;
   const question4 = document.getElementById("question4").value;
   const question5 = document.getElementById("question5").value;
-  const option = document.getElementById("input[name = 'option']:checked").value;
-  console.log(checking);
+  console.log("checking");
+
 }
+
+
+window.addEventListener("load", function() {
+  const form = document.getElementById("language");
+  form.addEventListener("submit", letsTest);
+});

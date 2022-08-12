@@ -8,71 +8,48 @@
 <body>
   <h1>Programming language Suggestor</h1>
 
-// Creating the list of questions, text boxes, and options for each text box
+
+<!-- // Creating a form with select box -->
+
+
+<h2> Answer each question</h2>
   <form id="language">
-    <select id="question1"
+    <label for="question1">1</label>
+    <select id="question1">
     <option value="1">1</option>
     <option value="2">2</option>
-    < type ="radio" name="option" value="option1">
-    option 1
-    </label>
-    <label>
-    <input type ="radio" name="option" value="option2">
-    option 2
-    </label>  
+    </select>
 
     <label for="question2">2</label>
-    <input id="question2" type="text">
-    <label>
-    <input type ="radio" name="option" value="option1">
-    option 1
-    </label>  
-    <label>
-    <input type ="radio" name="option" value="option2">
-    option 2
-    </label>  
+    <select id="question2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    </select>
 
-    <label for="question3"> 3</label>
-    <input id="question3" type="text">
-    <label>
-    <input type ="radio" name="option" value="option1">
-    option 1
-    </label>  
-    <label>
-    <input type ="radio" name="option" value="option2">
-    option 2
-    </label>  
+    <label for="question3">3</label>
+    <select id="question3">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    </select>
 
-    <label for ="question4">4</label>
-    <input id="question4" type="text">
-    <label>
-    <input type ="radio" name="option" value="option1">
-    option 1
-    </label>  
-    <label>
-    <input type ="radio" name="option" value="option2">
-    option 2
-    </label>  
+    <label for="question4">4</label>
+    <select id="question4">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    </select>
 
-    <label for ="question5"> 5</label>
-    <input id="question5" type="text">
-    <label>
-    <input type ="radio" name="option" value="option1">
-    option 1
-    </label>  
-    <label>
-    <input type ="radio" name="option" value="option2">
-    option 2
-    </label>  
-
+    <label for="question5">5</label>
+    <select id="question5">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    </select>
     <button type="submit" class="btn">Submit</button>
 
-  
   </form>
 
   <div id="results" class = "hidden">
   <h2>Your Results</h2>
-    <p> "Based off of your answers, the programming language you should learn is <span id="output"></span></p>
+    <p> "Based off of your answers, the programming language you should consider learning is <span id="output"></span></p>
   </div>
 </body>
 </html>
