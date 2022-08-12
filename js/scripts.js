@@ -23,21 +23,21 @@ function letsTest(event) {
   const question4 = document.getElementById("question4").value;
   const question5 = document.getElementById("question5").value;
 
-  // const option = document.getElementById("input[name = 'option']:checked").value;
-
-
+  const questions = document.querySelector("option[value = '0']:checked");
 
   let result;
-  if (question1, question3, question5  === "1") {
+  if (question5 === "5") {
+    result = "Ruby"
+  }  else if (question1, question3  === "1") {
     result = "Python";
-  } else if (question2 === "2") {
+  } else if (question2, question4 ===  "2") {
     result = "JavaScript";
-  } else {
-    result = "Ruby";
-  }
+  } else if (questions);
+    result = document.querySelector("div#results").setAttribute("class", "hidden");
 
   document.querySelector("div#results").removeAttribute("class");
   document.getElementById("output").innerText = result;
+  console.log("checking");
 }
 
 window.addEventListener("load", function() {
