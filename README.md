@@ -3,7 +3,6 @@
 
 # Description
   *Created a form that helps users who are interested in coding decide which language to learn*
-  [Najma's Portfolio](https://anajmabdi.github.io/Portfolio-webpage/)
 
 # Technologies used
 - *GitHub*
