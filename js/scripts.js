@@ -23,7 +23,7 @@ function letsTest(event) {
   const question4 = document.getElementById("question4").value;
   const question5 = document.getElementById("question5").value;
 
-  const questions = document.querySelector("option[value = '0']:checked");
+  const questions = document.querySelector("option[value = '0']:checked").value;
 
   let result;
   if (question5 === "5") {
@@ -32,8 +32,9 @@ function letsTest(event) {
     result = "Python";
   } else if (question2, question4 ===  "2") {
     result = "JavaScript";
-  } else if (questions);
+  } else (questions); {
     result = document.querySelector("div#results").setAttribute("class", "hidden");
+  }
 
   document.querySelector("div#results").removeAttribute("class");
   document.getElementById("output").innerText = result;
