@@ -7,7 +7,7 @@ function letsTest(event) {
 
   let result;
   if (question1==="1") {
-    result = "Ruby"
+    result = "Ruby!"
   } else if (question1==="2") {
     result = "Python!";
   } else if (question1==="3") {
