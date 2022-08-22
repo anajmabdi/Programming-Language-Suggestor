@@ -9,10 +9,13 @@
 - *Visual Studio Code*
 
 # Application setup instructions
-1. Read the question
-2. Decide between the two options provided
-3. Click submit
-4. The user's result will show up and reveal which programming language they should learn.
+### Clone:
+- *Open terminal and type in " git clone https://github.com/anajmabdi/Programming-Language-Suggestor "*
+- *To view or edit code, have VS code already downloaded before typing " code . " in terminal. It will open the folder in there.*
+- *To view webpage, open the folder and double click the html*
+
+# Known Bugs
+- *None*
 
 
 # License
