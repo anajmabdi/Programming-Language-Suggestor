@@ -1,3 +1,9 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color: rgb(210, 152, 210);
+  color: powderblue;
+  text-align: center;
+}
